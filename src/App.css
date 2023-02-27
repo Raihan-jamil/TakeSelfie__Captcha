@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  padding: 30px;
+  position: relative;
+}
+#image {
+  height: 100%;
+  width: 100%;
+}
+
+.captchaBox {
+  position: absolute;
+  margin-top: 100px;
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(117, 120, 120);
+  opacity: 0.5;
+}
+
+.takeSelfie {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  max-width: 700px;
+  margin-top: 50px;
+}
+
+#btn_continue {
+  width: 180px;
+  background-color: rgb(201, 201, 20);
+  border: none;
+  padding: 10px;
+}
+
+#name {
+  color: black;
+}
